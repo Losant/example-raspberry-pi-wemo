@@ -1,0 +1,16 @@
+{
+  "name": "@structure/example-iss-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "structure-sdk-js": "^1.1.0",
+    "wemo-client": "^0.6.6"
+  }
+}
