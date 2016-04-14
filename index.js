@@ -1,6 +1,6 @@
 var async = require('async');
 var Wemo = require('wemo-client');
-var Device = require('structure-sdk-js').Device;
+var Device = require('losant-sdk-js').Device;
 
 // The serial number of the Wemo. Makes sure that if there's multiple on
 // the network, we pick the right one.
@@ -14,13 +14,13 @@ var device = new Device({
 });
 
 device.on('error', function(err) { console.log(err); });
-device.on('connect', function() { console.log('Connected to Structure!') });
+device.on('connect', function() { console.log('Connected to Losant!') });
 
-// Connect the device to Structure.
+// Connect the device to Losant.
 device.connect();
 
 // Attach the command event handler. Occurs whenever
-// a command is sent to this device from Structure.
+// a command is sent to this device from Losant.
 device.on('command', function(command) {
 
   if(!wemoClient) {

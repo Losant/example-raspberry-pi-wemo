@@ -1,5 +1,5 @@
 {
-  "name": "@structure/example-iss-light",
+  "name": "example-iss-light",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^1.5.2",
-    "structure-sdk-js": "^1.1.0",
+    "losant-sdk-js": "^1.1.0",
     "wemo-client": "^0.6.6"
   }
 }
