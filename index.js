@@ -1,6 +1,6 @@
 var async = require('async');
 var Wemo = require('wemo-client');
-var Device = require('losant-sdk-js').Device;
+var Device = require('losant-mqtt').Device;
 
 // The serial number of the Wemo. Makes sure that if there's multiple on
 // the network, we pick the right one.
