@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^1.5.2",
-    "losant-sdk-js": "^1.1.0",
+    "losant-mqtt": "^1.3.0",
     "wemo-client": "^0.6.6"
   }
 }
